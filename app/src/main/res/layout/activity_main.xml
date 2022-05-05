@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sifonn"
+        android:text="FINDING FALCONE"
+        android:textColor="#FFFFFF"
+        android:textSize="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:fontFamily="@font/ptbold"
+        android:text="SELECT PLANETS YOU WANT TO SEARCH IN : "
+        android:textColor="#EDDAA6"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/planetTwo"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="166dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/white"
+        android:hint="Planet Two : "
+        android:outlineSpotShadowColor="#FBF8F8"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="#F1EBEB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316"
+        tools:ignore="MissingConstraints">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoPlanetTwo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EDE3E3"
+            android:backgroundTint="#C4C4C4"
+            android:drawableTint="#00652A2A"
+            android:fontFamily="@font/ptcapreg"
+            android:foregroundTint="#005E3D3D"
+            android:inputType="none"
+            android:outlineAmbientShadowColor="#F4F4F4"
+            android:outlineSpotShadowColor="#F6F1F1"
+            android:paddingTop="16dp"
+            android:paddingBottom="10dp"
+            android:shadowColor="#FAF9F9"
+            android:text="Select"
+            android:textColor="@color/black"
+            tools:layout_conversion_absoluteHeight="49dp"
+            tools:layout_conversion_absoluteWidth="240dp"
+            tools:layout_editor_absoluteX="139dp"
+            tools:layout_editor_absoluteY="651dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/planetThree"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="166dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/white"
+        android:hint="Planet Three: "
+        android:outlineSpotShadowColor="#FBF8F8"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="#F1EBEB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592"
+        tools:ignore="MissingConstraints">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoPlanetThree"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#C4C4C4"
+            android:fontFamily="@font/ptcapreg"
+            android:inputType="none"
+            android:outlineAmbientShadowColor="#F4F4F4"
+            android:outlineSpotShadowColor="#F6F1F1"
+            android:paddingTop="16dp"
+            android:paddingBottom="10dp"
+            android:text="Select"
+            android:textColor="@color/black"
+            tools:layout_conversion_absoluteHeight="49dp"
+            tools:layout_conversion_absoluteWidth="240dp"
+            tools:layout_editor_absoluteX="139dp"
+            tools:layout_editor_absoluteY="651dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/planetFour"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="166dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/white"
+        android:hint="Planet Four : "
+        android:outlineSpotShadowColor="#FBF8F8"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="#F1EBEB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592"
+        tools:ignore="MissingConstraints">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoPlanetFour"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#C4C4C4"
+            android:fontFamily="@font/ptcapreg"
+            android:inputType="none"
+            android:outlineAmbientShadowColor="#F4F4F4"
+            android:outlineSpotShadowColor="#F6F1F1"
+            android:paddingTop="16dp"
+            android:paddingBottom="10dp"
+            android:text="Select"
+            android:textColor="@color/black"
+            tools:layout_conversion_absoluteHeight="49dp"
+            tools:layout_conversion_absoluteWidth="240dp"
+            tools:layout_editor_absoluteX="139dp"
+            tools:layout_editor_absoluteY="651dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/planetOne"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="166dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/white"
+        android:hint="Planet One : "
+        android:outlineSpotShadowColor="#FBF8F8"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="#F1EBEB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoPlanetOne"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#C4C4C4"
+            android:fontFamily="@font/ptcapreg"
+            android:inputType="none"
+            android:outlineAmbientShadowColor="#F4F4F4"
+            android:outlineSpotShadowColor="#F6F1F1"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp"
+            android:shadowColor="#00601414"
+            android:text="Select"
+            android:textColor="@color/black"
+            tools:ignore="DuplicateIds"
+            tools:layout_conversion_absoluteHeight="49dp"
+            tools:layout_conversion_absoluteWidth="240dp"
+            tools:layout_editor_absoluteX="139dp"
+            tools:layout_editor_absoluteY="651dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="172dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#EDDAA6"
+        android:fontFamily="@font/ptcapbold"
+        android:text="FIND FALCON"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="88dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#00EDDAA6"
+        android:fontFamily="@font/ptcapbold"
+        android:outlineSpotShadowColor="#12FFFFFF"
+        android:text="RESET"
+        android:textColor="#EDDAA6"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/reset2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ptbold"
+        android:text="TIME TAKEN : "
+        android:textColor="#EDDAA6"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:fontFamily="@font/ptreg"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.839" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

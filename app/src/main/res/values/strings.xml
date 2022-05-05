@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name"> FALCONE </string>
+    <string-array name="planet">
+        <item>Select</item>
+        <item>Donlon</item>
+        <item>Enchai</item>
+        <item>Jebing</item>
+        <item>Sapir</item>
+        <item>Lerbin</item>
+        <item>Pingasor</item>
+    </string-array>
+    <string-array name="vehicle">
+        <item>Select</item>
+        <item>Space Pod</item>
+        <item>Space Rocket</item>
+        <item>Space Shuttle</item>
+        <item>Space Ship</item>
+    </string-array>
+</resources>
