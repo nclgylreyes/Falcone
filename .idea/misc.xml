@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/Falcone/app/src/main/res/layout/activity_failed.xml" value="0.1671195652173913" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Falcone/app/src/main/res/layout/activity_found.xml" value="0.25" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/Falcone/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Falcone/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Falcone/app/src/main/res/layout/activity_start_again.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Falcone/app/src/main/res/layout/activity_try_again.xml" value="0.1671195652173913" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Falcone/app/src/main/res/layout/dropdown_item.xml" value="0.17074275362318841" />
       </map>
     </option>

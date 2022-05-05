@@ -1,19 +1,24 @@
 <resources>
     <string name="app_name"> FALCONE </string>
-    <string-array name="planet">
-        <item>Select</item>
-        <item>Donlon</item>
-        <item>Enchai</item>
-        <item>Jebing</item>
-        <item>Sapir</item>
-        <item>Lerbin</item>
-        <item>Pingasor</item>
-    </string-array>
-    <string-array name="vehicle">
-        <item>Select</item>
-        <item>Space Pod</item>
-        <item>Space Rocket</item>
-        <item>Space Shuttle</item>
-        <item>Space Ship</item>
-    </string-array>
+    <string name="resetButton"> RESET </string>
+    <string name="title"> FINDING FALCONE </string>
+    <string name="instruction"> SELECT PLANETS YOU WANT TO SEARCH IN : </string>
+    <string name="time_label"> TIME TAKEN : </string>
+    <string name="find_button"> FIND FALCONE </string>
+    <string name="planetOne"> Planet One : </string>
+    <string name="planetTwo"> Planet Two : </string>
+    <string name="planetThree"> Planet Three : </string>
+    <string name="planetFour"> Planet Four : </string>
+    <string name="vehicleOne"> Vehicle One : </string>
+    <string name="vehicleTwo"> Vehicle Two : </string>
+    <string name="vehicleThree"> Vehicle Three : </string>
+    <string name="vehicleFour"> Vehicle Four : </string>
+    <string name="select"> Select </string>
+    <string name="found_title"> FALCONE FOUND </string>
+    <string name="message_success"> SUCCESS! CONGRATULATIONS ON FINDING FALCONE. KING SHAN IS EXTREMELY PLEASED. </string>
+    <string name="planet_found"> PLANET FOUND :</string>
+    <string name="start_again"> START AGAIN </string>
+    <string name="not_found">FALCONE NOT FOUND </string>
+    <string name="fail_message">FAILED! FALCONE IS NOT IN THIS AREA. GO TO ANOTHER PLANET AND SEARCH.</string>
+    <string name="try_again">TRY AGAIN</string>
 </resources>
